@@ -7,16 +7,18 @@
   <!--
   #Layer1 {
         position:absolute;
-        left:354px;
-        top:201px;
+        left:50%;
+        top:50%;
+        transform:translate(-50%, -50%);
         width:275px;
         height:189px;
         z-index:1;
   }
   #Layer2 {
         position:absolute;
-        left:371px;
-        top:438px;
+        left:50%;
+        top:calc(50% + 128px);
+        transform:translateX(-50%);
         width:266px;
         height:100px;
         z-index:2;
@@ -33,12 +35,30 @@
         height:846px;
         z-index:3;
   }
+  #banner {
+        position:fixed;
+        top:0;
+        left:0;
+        width:100%;
+        background-color:#cc0000;
+        color:#ffffff;
+        text-align:center;
+        padding:8px 0;
+        font-family:Verdana, Arial, Helvetica, sans-serif;
+        font-size:13px;
+        font-weight:bold;
+        z-index:100;
+        box-sizing:border-box;
+  }
   -->
   /*]]>*/
   </style>
   <script defer data-domain="zidyabouzid.com" src="https://plausible.codewithadu.de/js/script.js"></script>
 </head>
 <body>
+  <div id="banner">
+    &#9888; Probl&egrave;me technique sur notre page Facebook &mdash; nous vous tenons inform&eacute;s d&egrave;s que la situation est r&eacute;tablie.
+  </div>
   <div id="Layer1">
     <a href="_____.html"><img src="trio.png" alt="bouzid zina amzian" width="295" height="236" border="0" /></a>
   </div>
